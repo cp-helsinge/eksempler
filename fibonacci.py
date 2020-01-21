@@ -1,9 +1,6 @@
-import turtle 
-import math 
-
 a=1
-b=0
-for n in range(1,10):
+b=1
+for n in range(1,20):
     print(a, end =" "),
     c=a+b
     a=b
