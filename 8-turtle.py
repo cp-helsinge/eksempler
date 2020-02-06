@@ -9,4 +9,3 @@ for n in range(1,32):
     turtle.forward(n*20)
 
 input()
-
