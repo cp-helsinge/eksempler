@@ -4,6 +4,7 @@
 # F(n) = 1/sqet(5) * ((1+sqrt(5)) /2 ) ** n - 1/sqet(5) * ((1-sqrt(5)) /2 ) ** n
 #
 # Se forklaring here: http://mathonline.wikidot.com/a-closed-form-of-the-fibonacci-sequence
+# Mere pædagogosk forklaring her: https://www.quora.com/What-is-something-that-is-trivial-to-a-mathematician-but-would-amaze-a-layperson/answer/Nish-Jayram
 
 import math
 
