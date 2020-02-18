@@ -3,8 +3,6 @@ liste = ["abe","bjørn","chinchilla","dromedar"]
 
 print(liste)
 
-
-print("-- 2 --")
 liste[3] = "dingo"
 print(liste)
 
@@ -26,8 +24,6 @@ list2 = [1, 2, 3]
 
 list3 = list1 + list2
 
-reverse()	Reverses the order of the list
-sort()
 
 # Method 	Description
 # append()	Adds an element at the end of the list
@@ -41,4 +37,5 @@ sort()
 # remove()	Removes the first item with the specified value
 # reverse()	Reverses the order of the list
 # sort()	
+
 # Lykke igennem lister og dictionaries
