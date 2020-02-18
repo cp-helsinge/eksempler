@@ -1,4 +1,4 @@
-# While lykke
+# imens lykke
 n =  1
 while n < 10:
   print(n)
