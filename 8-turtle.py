@@ -5,7 +5,9 @@ import turtle
 
 # the power of for loops
 for n in range(1,32):
-    turtle.left(90)
-    turtle.forward(n*20)
+    turtle.left(15)
+    turtle.forward(n*12)
+    turtle.left(5)
+    turtle.forward(n*3)
 
 input()
