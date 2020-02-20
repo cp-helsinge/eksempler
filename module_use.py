@@ -32,4 +32,6 @@ for n in range(-2,3):
   move(n*350,200)
   weird_flower()
 
+square()
+
 input()
