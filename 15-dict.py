@@ -5,7 +5,7 @@
 
 
 # definition:  nøgle: værdi
-print("-- 1 --")
+
 dictionary = {
   'dyr': "abe", 
   'bil': "volvo",
