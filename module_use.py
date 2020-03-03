@@ -1,9 +1,9 @@
 # Use modules
-from mod1 import *
-from mod2 import *
-import turtle
+from mod1 import * # her importerer vi funktioner fra filen mod1.py
+from mod2 import * # her importerer vi funktioner fra filen mod2.py
+import turtle # her importerer vi hele turtle modulet
 
-turtle.speed(1000)
+turtle.speed("fastest")
 turtle.color(0.4,0,1)
 turtle.pensize(4)
 
