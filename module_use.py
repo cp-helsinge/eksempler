@@ -1,5 +1,5 @@
 # Use modules
-from mod1 import * # her importerer vi funktioner fra filen mod1.py
+#from mod1 import * # her importerer vi funktioner fra filen mod1.py
 from mod2 import * # her importerer vi funktioner fra filen mod2.py
 import turtle # her importerer vi hele turtle modulet
 
@@ -34,4 +34,7 @@ for n in range(-2,3):
 
 square()
 
+
 input()
+
+
