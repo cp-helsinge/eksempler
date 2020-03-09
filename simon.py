@@ -4,6 +4,8 @@
 class Test1:
     def __init__(self):
         self.a =1
+        self._d=4
+        self.__e=5
 
 class Test2(Test1):
     def __init__(self):
@@ -18,6 +20,8 @@ class Test3(Test2,Test1):
 
 o = Test3()
 print( vars(o) )
+
+print(o._Test1__e)
 
 
 
