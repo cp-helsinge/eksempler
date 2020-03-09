@@ -18,10 +18,20 @@ class Test3(Test2,Test1):
         Test2.__init__(self)
         self.c = 3
 
-o = Test3()
-print( vars(o) )
+    def __add__(self, o ):
+        for k, v in vars( o ).items():
+            self.__dict__[k] += v
+        return self
 
-print(o._Test1__e)
+    def __sub__(self, o ):
+        for k, v in vars( o ).items():
+            self.__dict__[k] += v
+        return self
 
+o1 = Test3()
+o2 = Test3()
 
+print( vars(o1) )
+
+print( vars(o1 + o2))
 
