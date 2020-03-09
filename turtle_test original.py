@@ -5,7 +5,6 @@ import turtle
 # kan man tegne flere samtidig? hvordan
 
 for n in range(1,100):
-    turtle.left(45)
-    turtle.forward(n*7)
-    
+    turtle.left(30)
+    turtle.forward(n*1.1)
 input()
