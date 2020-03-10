@@ -5,15 +5,15 @@
 
 class Test1:
     def __init__(self): # Constructor function
-        self.a =1   # Public
-        self._d=4   # Protected
-        self.__e=5  # Private
+        self.a = 1    # Public
+        self._d = 4   # Protected
+        self.__e = 5  # Private
 
 # Nedarvning
 class Test2(Test1):
     def __init__(self):
         Test1.__init__(self)
-        self.b = self.a+1
+        self.b = self.a + 1
 
 # Nedarvning af flere classer
 class Test3(Test2,Test1):
@@ -36,8 +36,8 @@ class Test3(Test2,Test1):
 o1 = Test3()
 o2 = Test3()
 
-print( vars(o1) )
+print( vars( o1 ) )
 
-print( vars(o1 + o2))
+print( vars( o1 + o2 ))
 
 
