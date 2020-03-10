@@ -5,22 +5,26 @@
 
 class Test1:
     def __init__(self): # Constructor function
+        print("initialiserer Test1")
         self.a = 1    # Public
         self._d = 4   # Protected
         self.__e = 5  # Private
 
 # Nedarvning
-class Test2(Test1):
+class Test2(Test1): # Arver fra Test1
     def __init__(self):
-        Test1.__init__(self)
+        print("initialiserer Test2")
+        Test1.__init__(self) # konstruere Test1 og sammensmelter med denne
         self.b = self.a + 1
 
 # Nedarvning af flere classer
 class Test3(Test2,Test1):
     def __init__(self):
+        print("initialiserer Test3")
         Test1.__init__(self)
         Test2.__init__(self)
         self.c = 3
+
 
     # Overloading
     def __add__(self, o ):
