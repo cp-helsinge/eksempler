@@ -25,7 +25,7 @@ class Test3(Test2,Test1):
 
     def __sub__(self, o ):
         for k, v in vars( o ).items():
-            self.__dict__[k] += v
+            self.__dict__[k] -= v
         return self
 
 o1 = Test3()
@@ -33,5 +33,8 @@ o2 = Test3()
 
 print( vars(o1) )
 
-print( vars(o1 + o2))
+print( vars(o1 - o2))
+
+print(3 if False else 2)
+
 
