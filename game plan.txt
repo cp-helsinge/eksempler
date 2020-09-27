@@ -1,0 +1,21 @@
+Installations dag.
+
+Vis dem tidligere spil. Så de får en realistisk fornemmelse af hvad der er muligt.
+
+Dag 1.
+
+Snak om hvilke begrænsninger der er
+Lav brainstorming om hvordan spille skal være
+
+Forklar om guthub
+
+lav en øvelse hvor flere elever agere objekter i spillet. 
+En kan evt være spiller der styrer et objekt. Resten følger et fastlagt mønster
+
+
+Dag 2. 
+Hvor store skal objekter være
+Baggrund og pixels
+
+Intro til Piskel app
+
