@@ -1,7 +1,7 @@
 # Brug af filer
 
 # Skriv en tekst ned i en fil og lok den
-# Læd tekst fra filen igen og skriv den på skærmen
+# Læs tekst fra filen igen og skriv den på skærmen
 
 data = "Husk at lukke lågen når du går ud"
 with open("gemte_data.txt", "w") as datafil:
