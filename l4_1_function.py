@@ -4,6 +4,6 @@ def plus(a, b):
   return c
 
 # Brug funktionen
-for n in range(1,11):
+for n in range(10):
   print( plus(10, n) )
 
