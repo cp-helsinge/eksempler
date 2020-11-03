@@ -11,4 +11,5 @@ for n in range(10):
     square(100)
     turtle.left(36)
 
-input()
+exitonclick()
+

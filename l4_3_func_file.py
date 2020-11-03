@@ -1,7 +1,5 @@
 import turtle
 
-turtle.speed(3)
-
 def square(size):
   for n in range(4):
       turtle.forward(size)

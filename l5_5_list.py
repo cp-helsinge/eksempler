@@ -1,10 +1,14 @@
 # lister har en fastsat tal som nøgle, der kaldes et indeks.
-liste = ["abe","bjørn","chinchilla","dromedar"]
+liste = ['abe',"bjørn","chinchilla","dromedar"]
 
 print(liste)
+
 
 liste[3] = "dingo"
 print(liste)
+
+for punkt in liste:
+  print(punkt)
 
 # Lister kan nogle ekstra ting
 
