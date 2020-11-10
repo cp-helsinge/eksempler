@@ -1,3 +1,9 @@
 # Værdier
-for x in thisdict.values():
+dictionary = {
+  'dyr': "abe", 
+  'bil': "volvo",
+  'navn': "børge",
+}
+
+for x in dictionary.values():
   print(x) 
