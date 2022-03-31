@@ -5,7 +5,7 @@ from PyQt5.QtWebEngineWidgets import *
 from PyQt5.QtWidgets import QApplication
 
 #
-# Husk at installere ovenstaaende python plugins (requests, pyqt5, qtwebenginewidget)
+# Husk at installere ovenstaaende python plugins (requests, pyqt5, PyQtWebEngine)
 #
 # Inspiration fra:
 # https://stackoverflow.com/questions/63102395/displaying-web-page-with-pyqt5-webengine
