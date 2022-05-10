@@ -9,13 +9,7 @@ class Person:
     def print(self):
         print(vars(self))
 
-elev1 = Person("Simon")
-elev2 = Person("Simon")
-lærer1 = Person("Gurusen")
-
-elev1.adresse = "Kødbyen 7"
-
-elev1.print()
-elev2.print()
-
+elev = Person("Simon")
+elev.adresse = "Kødbyen 7"
+elev.print()
     

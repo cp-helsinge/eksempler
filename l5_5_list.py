@@ -7,6 +7,8 @@ print(liste)
 liste[3] = "dingo"
 print(liste)
 
+del liste[2]
+
 for punkt in liste:
   print(punkt)
 
